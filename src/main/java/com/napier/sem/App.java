@@ -12,6 +12,7 @@ public class App
         // Connect to MongoDB on local system - we're using port 27000
         // MongoClient mongoClient = new MongoClient("localhost", 27000);
 
+
         // Connect to MongoDB on local server
         MongoClient mongoClient = new MongoClient("mongo-dbserver");
         // Get a database - will create when we use it
